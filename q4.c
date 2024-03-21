@@ -1,5 +1,5 @@
-#include<iostream>
-using namespace std;
+#include<stdio.h>
+
 int repeat(int *arr,int n){
     for(int i=0;i<n;i++){
         for(int j=i+1;j<n;j++){
@@ -12,15 +12,15 @@ int repeat(int *arr,int n){
 int main(){
     int n;
     int arr[100000];
-    cout<<"Eter size :";
-    cin>>n;
+   printf("Enter size ");
+    scanf("%d",&n);
     for(int i=0;i<n;i++){
-        cin>>arr[i];
+       scanf("%d",arr[i);
     }
 
-    cout<<"The repeating elemenst is :";
+   printf("The repeating element is :");
     int x=repeat(arr,n);
-    cout<<x;
+    printf("%d",x);
 
 
 }
