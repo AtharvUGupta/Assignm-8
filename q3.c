@@ -1,5 +1,5 @@
-#include<iostream>
-using namespace std;
+#include<stdio.h>
+
 void reverse(int *arr,int n){
     int s=0;
     int e=n-1;
